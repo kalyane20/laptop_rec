@@ -4,12 +4,12 @@
 
 This project is an intelligent chatbot built to recommend laptops based on user preferences using the Flipkart laptops dataset. It leverages **Retrieval-Augmented Generation (RAG)**, **LangChain agents**, and **Groq API** to deliver fast and accurate recommendations. The application is built using **Streamlit** for an interactive web interface and **ChromaDB** for vector-based search.
 
----
 
-## 📁 Project Structure
+# 📁 Project Structure
 
-```plaintext
+``plaintext
 ├── enrich.py              # Script to enrich and preprocess the dataset             # Main Streamlit app for chatbot interface
+
 ├── app.py                 # Main Streamlit app for chatbot interface
 ├── flipkart_laptops_dataset.csv  # Original dataset from Flipkart
 ├── flipkart_laptops_enriched.csv # Cleaned and enriched dataset used for RAG
@@ -32,7 +32,9 @@ Development Tools: Jupyter Notebook, VSCode
 
 
 ⚙️ Features
+
 🔍 Smart laptop recommendations from Flipkart dataset
+
 
 💬 Conversational chatbot using LangChain and Groq
 
@@ -45,33 +47,28 @@ Development Tools: Jupyter Notebook, VSCode
 ⚡ Fast, lightweight local deployment with Groq
 
 
- How to Run the Project
-Clone the Repository:
+ # How to Run the Project
+ 
+###Clone the Repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/flipkart-laptop-chatbot.git
-cd flipkart-laptop-chatbot
-Install Dependencies:
+---git clone https://github.com/your-username/flipkart-laptop-chatbot.git
+cd flipkart-laptop-chatbot  ---
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Set Your Groq API Key:
 
-bash
-Copy
-Edit
-export GROQ_API_KEY=your_key_here  # for Linux/macOS
-set GROQ_API_KEY=your_key_here     # for Windows (CMD)
-Run the App:
+###Install Dependencies:
 
-bash
-Copy
-Edit
-streamlit run app.py
+---pip install -r requirements.txt---
+
+
+###Set Your Groq API Key:
+
+---export GROQ_API_KEY=your_key_here  # for Linux/macOS
+set GROQ_API_KEY=your_key_here     # for Windows (CMD)---
+
+
+###Run the App:
+
+---streamlit run app.py---
 
 
 
