@@ -51,8 +51,9 @@ Development Tools: Jupyter Notebook, VSCode
  
 ###Clone the Repository:
 
----git clone https://github.com/your-username/flipkart-laptop-chatbot.git
-cd flipkart-laptop-chatbot  ---
+git clone https://github.com/your-username/flipkart-laptop-chatbot.git
+cd flipkart-laptop-chatbot
+
 
 
 ###Install Dependencies:
