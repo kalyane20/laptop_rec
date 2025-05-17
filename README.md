@@ -12,8 +12,8 @@ This project is an intelligent chatbot built to recommend laptops based on user 
 ## 📁 Project Structure
 
 ```plaintext
-├── app.py                         # Main Streamlit app for chatbot interface
-├── enrich_data.py                # Script to enrich and preprocess the dataset
+├── enrich.py               # Script to enrich and preprocess the dataset      
+├── app.py                  # Main Streamlit app for chatbot interface
 ├── flipkart_laptops_dataset.csv  # Original dataset from Flipkart
 ├── flipkart_laptops_enriched.csv # Cleaned and enriched dataset used for RAG
 ├── requirements.txt              # List of Python dependencies
