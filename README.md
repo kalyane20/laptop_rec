@@ -1,8 +1,4 @@
-Here's a complete and well-structured `README.md` file that includes a description of your project and all your files:
 
----
-
-````markdown
 # 💻 Flipkart Laptop Recommendation Chatbot
 
 This project is an intelligent chatbot built to recommend laptops based on user preferences using the Flipkart laptops dataset. It leverages **Retrieval-Augmented Generation (RAG)**, **LangChain agents**, and **Groq API** to deliver fast and accurate recommendations. The application is built using **Streamlit** for an interactive web interface and **ChromaDB** for vector-based search.
